@@ -7,7 +7,6 @@ class DataList extends StatelessWidget {
   //data yang akan ditampilkan dalam widget
   final List<String> data = ["Item 1", "Item 2", "Item 3","Item 4"];
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

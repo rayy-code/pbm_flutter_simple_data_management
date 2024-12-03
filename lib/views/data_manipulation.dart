@@ -10,9 +10,7 @@ class DataManipulation extends StatefulWidget{
 
 class _DataManipulationState extends State<DataManipulation>
 {
-
   List<String> dataList = ["Item 1", "Item 2", "Item 3","Item 4"];
-
 
   //method untuk menambahkan item baru ke dalam daftar
   void addItem() {

@@ -5,7 +5,6 @@ import 'dart:convert';
 class DataApi extends StatefulWidget{
   const DataApi({super.key});
 
-
   @override
   //ignore: library_private_types_in_public_api
   _DataApiState createState()=> _DataApiState();
@@ -40,8 +39,6 @@ class _DataApiState extends State<DataApi>
     super.initState();
     fetchData();
   }
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
